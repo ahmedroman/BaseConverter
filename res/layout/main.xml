@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="7dp"
+    android:layout_marginLeft="25dp"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp" >
+
+        <TextView
+            android:id="@+id/numtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number      : "
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:typeface="serif" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp" >
+
+        <TextView
+            android:id="@+id/fromtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From base  : "
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:typeface="serif" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp" >
+
+        <TextView
+            android:id="@+id/totv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To base       : "
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:typeface="serif" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="Convert"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="7dp"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="Result : "
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+                 <TextView
+                android:id="@+id/res"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25sp" 
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                 android:typeface="serif"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:textSize="22sp"
+        android:typeface="serif" />
+
+</LinearLayout>
